@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+    <a class="navbar-brand" href="https://frwk.com.br/" target="_blank">
+        <img src="../assets/img/logo.svg" width="150px" height="90px">
+    </a>
+    <div class="container-fluid collapse navbar-collapse">
+        <ul class="navbar-nav"> 
+            <li class="nav-item">
+                <a [routerLink]="['/usuarios']" routerLinkActive="active" 
+                    class="nav-link" href="usuarios">Usuários</a>
+            </li>
+            <li class="nav-item">
+                <a [routerLink]="['/postagens']" routerLinkActive="active" 
+                   class="nav-link" href="postagens">Postagens</a>
+            </li>
+            <li class="nav-item">
+                <a [routerLink]="['/comentarios']" routerLinkActive="active" 
+                   class="nav-link" href="comentarios">Comentários</a>
+            </li>
+        </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+

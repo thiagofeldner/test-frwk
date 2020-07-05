@@ -1,0 +1,148 @@
+{
+  "usuarios": [
+    {
+     "id": 1,
+     "name": "Leanne Graham",
+     "username": "Bret",
+     "email": "Sincere@april.biz"
+    },
+    {
+     "id": 2,
+     "name": "Ervin Howell",
+     "username": "Antonette",
+     "email": "Shanna@melissa.tv"
+    },
+    {
+     "id": 3,
+     "name": "Clementine Bauch",
+     "username": "Samantha",
+     "email": "Nathan@yesenia.net"
+    },
+    {
+     "id": 4,
+     "name": "Patricia Lebsack",
+     "username": "Karianne",
+     "email": "Julianne.OConner@kory.org"
+    },
+    {
+     "id": 5,
+     "name": "Chelsey Dietrich",
+     "username": "Kamren",
+     "email": "Lucio_Hettinger@annie.ca"
+    },
+    {
+     "id": 6,
+     "name": "Mrs. Dennis Schulist",
+     "username": "Leopoldo_Corkery",
+     "email": "Karley_Dach@jasper.info"
+    },
+    {
+     "id": 7,
+     "name": "Kurtis Weissnat",
+     "username": "Elwyn.Skiles",
+     "email": "Telly.Hoeger@billy.biz"
+    }
+  ],
+  "postagens": [
+    {
+     "userId": 1,
+     "id": 1,
+     "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+     "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+     "userId": 2,
+     "id": 11,
+     "title": "et ea vero quia laudantium autem",
+     "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+    },
+    {
+     "userId": 3,
+     "id": 30,
+     "title": "a quo magni similique perferendis",
+     "body": "alias dolor cumque\nimpedit blanditiis non eveniet odio maxime\nblanditiis amet eius quis tempora quia autem rem\na provident perspiciatis quia"
+    },
+    {
+     "userId": 4,
+     "id": 31,
+     "title": "ullam ut quidem id aut vel consequuntur",
+     "body": "debitis eius sed quibusdam non quis consectetur vitae\nimpedit ut qui consequatur sed aut in\nquidem sit nostrum et maiores adipisci atque\nquaerat voluptatem adipisci repudiandae"
+    },
+    {
+     "userId": 5,
+     "id": 50,
+     "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+     "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
+    },
+    {
+     "userId": 6,
+     "id": 51,
+     "title": "soluta aliquam aperiam consequatur illo quis voluptas",
+     "body": "sunt dolores aut doloribus\ndolore doloribus voluptates tempora et\ndoloremque et quo\ncum asperiores sit consectetur dolorem"
+    },
+    {
+     "userId": 8,
+     "id": 74,
+     "title": "enim unde ratione doloribus quas enim ut sit sapiente",
+     "body": "odit qui et et necessitatibus sint veniam\nmollitia amet doloremque molestiae commodi similique magnam et quam\nblanditiis est itaque\nquo et tenetur ratione occaecati molestiae tempora"
+    }
+  ],
+  "commentarios": [
+    {
+     "postId": 1,
+     "id": 5,
+     "name": "vero eaque aliquid doloribus et culpa",
+     "email": "Hayden@althea.biz",
+     "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
+    },
+    {
+     "postId": 2,
+     "id": 6,
+     "name": "et fugit eligendi deleniti quidem qui sint nihil autem",
+     "email": "Presley.Mueller@myrl.com",
+     "body": "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in"
+    },
+    {
+     "postId": 3,
+     "id": 15,
+     "name": "debitis magnam hic odit aut ullam nostrum tenetur",
+     "email": "Maynard.Hodkiewicz@roberta.com",
+     "body": "nihil ut voluptates blanditiis autem odio dicta rerum\nquisquam saepe et est\nsunt quasi nemo laudantium deserunt\nmolestias tempora quo quia"
+    },
+    {
+     "postId": 4,
+     "id": 16,
+     "name": "perferendis temporibus delectus optio ea eum ratione dolorum",
+     "email": "Christine@ayana.info",
+     "body": "iste ut laborum aliquid velit facere itaque\nquo ut soluta dicta voluptate\nerror tempore aut et\nsequi reiciendis dignissimos expedita consequuntur libero sed fugiat facilis"
+    },
+    {
+     "postId": 5,
+     "id": 25,
+     "name": "autem ab ea sit alias hic provident sit",
+     "email": "Isaias_Kuhic@jarrett.net",
+     "body": "sunt aut quae laboriosam sit ut impedit\nadipisci harum laborum totam deleniti voluptas odit rem ea\nnon iure distinctio ut velit doloribus\net non ex"
+    },
+    {
+     "postId": 6,
+     "id": 26,
+     "name": "in deleniti sunt provident soluta ratione veniam quam praesentium",
+     "email": "Russel.Parker@kameron.io",
+     "body": "incidunt sapiente eaque dolor eos\nad est molestias\nquas sit et nihil exercitationem at cumque ullam\nnihil magnam et"
+    },
+    {
+     "postId": 7,
+     "id": 35,
+     "name": "repellendus sapiente omnis praesentium aliquam ipsum id molestiae omnis",
+     "email": "Georgianna@florence.io",
+     "body": "dolor mollitia quidem facere et\nvel est ut\nut repudiandae est quidem dolorem sed atque\nrem quia aut adipisci sunt"
+    },
+    {
+     "postId": 8,
+     "id": 36,
+     "name": "sit et quis",
+     "email": "Raheem_Heaney@gretchen.biz",
+     "body": "aut vero est\ndolor non aut excepturi dignissimos illo nisi aut quas\naut magni quia nostrum provident magnam quas modi maxime\nvoluptatem et molestiae"
+    }
+  ]
+}

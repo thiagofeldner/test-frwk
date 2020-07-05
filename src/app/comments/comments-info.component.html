@@ -1,0 +1,41 @@
+<h2>Comentário</h2>
+
+<hr/>
+
+<form #commentForm="ngForm" *ngIf="comment">
+    <div class="form-group row">
+        <label class="col-sm-1 col-form-label">Name:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]= "comment.name" required name="name" #name="ngModel"
+            [ngClass]="{'is-invalid': name.invalid}" class="form-control">
+            
+            <div class="invalid-feedback">
+              <span>User name is required!</span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-1 col-form-label">Email:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]= "comment.email" required name="email" #email="ngModel" 
+            [ngClass]="{'is-invalid': email.invalid}" class="form-control">
+            
+            <div class="invalid-feedback">
+              <span>Email is required!</span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-1 col-form-label">Body:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]= "comment.body" required name="body" #body="ngModel" 
+            [ngClass]="{'is-invalid': body.invalid}" class="form-control">
+            
+            <div class="invalid-feedback">
+              <span>Body is required!</span>
+            </div>
+        </div>
+    </div>
+    <button [disabled]="commentForm.invalid"(click)="save()" class="btn btn-primary mr-2">Save</button>
+    <button [routerLink]="['/comentarios']" class="btn btn-secondary">Back</button>
+</form>

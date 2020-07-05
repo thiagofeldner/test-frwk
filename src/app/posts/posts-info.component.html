@@ -1,0 +1,30 @@
+<h2>Postagem</h2>
+
+<hr/>
+
+<form #postForm="ngForm" *ngIf="post">
+    <div class="form-group row">
+        <label class="col-sm-1 col-form-label">Title:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]= "post.title" required name="title" #title="ngModel"
+            [ngClass]="{'is-invalid': title.invalid}" class="form-control">
+            
+            <div class="invalid-feedback">
+              <span>Titúlo is required!</span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-1 col-form-label">Body:</label>
+        <div class="col-sm-10">
+            <input [(ngModel)]= "post.body" required name="body" #body="ngModel" 
+            [ngClass]="{'is-invalid': body.invalid}" class="form-control">
+            
+            <div class="invalid-feedback">
+              <span>Body is required!</span>
+            </div>
+        </div>
+    </div>
+    <button [disabled]="postForm.invalid"(click)="save()" class="btn btn-primary mr-2">Save</button>
+    <button [routerLink]="['/postagens']" class="btn btn-secondary">Back</button>
+</form>

@@ -1,0 +1,44 @@
+body {
+    font: 20px Arial, sans-serif;
+}
+.navbar {
+    background-color: #85C1E9 ;
+}
+.menu {
+    background-color: #ABEBC6 ;
+}
+.postagens{
+    background-color: #95A5A6;
+    color: white;
+}
+.margin {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.albuns {
+    background-color: #ABEBC6;
+}
+h3 {
+    color: white;
+}
+.bg-footer {
+    background-color:#D7DBDD ;
+}
+.users {
+    background-color:#37A1FF;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.posts{
+    background-color:#04FACA;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.albuns{
+    background-color:#CCD0D5;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.voltar {
+    color: black;
+}

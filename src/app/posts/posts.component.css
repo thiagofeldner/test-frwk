@@ -1,0 +1,13 @@
+td {
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+tr {
+    height: 30%;
+}
+.users {
+    background-color:#37A1FF;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
